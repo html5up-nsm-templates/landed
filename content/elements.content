@@ -41,17 +41,18 @@
 
 					<h4>Preformatted</h4>
 					<center>
-						<pre class="prettyprint lang-python">
-							i = 0;
+<pre class="prettyprint lang-python">
+i = 0;
 
-							while (!deck.isInOrder()) {
-							print 'Iteration ' + i;
-							deck.shuffle();
-							i++;
-							}
+while (!deck.isInOrder()) 
+{
+	print 'Iteration ' + i;
+	deck.shuffle();
+	i++;
+}
 
-							print 'It took ' + i + ' iterations to sort the deck.';
-						</pre>
+print 'It took ' + i + ' iterations to sort the deck.';
+</pre>
 					</center>
 				</section>
 
